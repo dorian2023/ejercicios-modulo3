@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10%;
+    background: linear-gradient(to right, darkgray, rgb(19, 19, 19))
+}
+.titulo h1, .alumno h2, .logo img {
+    text-shadow: 0 0 10px white;
+}
+.imgheader{
+    max-height: 50px;
+    max-width: 50px;
+}
+.container-todo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.titulo{
+    margin: 10px;
+    padding: 10px;
+}
+.container{
+    display: flex;
+    border: 1px solid #231231;
+    height: auto;
+    width: 40%;
+    margin: 35px;
+    text-align: center;
+    padding: auto;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+.input{
+    width: 50%;
+    margin: 5px;
+    height: 70px;
+    text-align: center;
+    font-size: 15px;
+    outline: none;
+    background: linear-gradient(to right, darkgray, rgba(19, 19, 19, 0.604));
+    color: black;
+    text-shadow: 0 0 2px white ;
+    border: none;
+    
+}
+.input::placeholder {
+    color: black;
+    text-shadow: 0 0 2px white ;
+
+}
+.boton{
+    width: 25%;
+    height: 50px;
+    margin: 10px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    border-radius: 20px;
+    background: linear-gradient(to right, rgb(12, 12, 12), rgba(19, 19, 19, 0.474));
+    color: white;
+     
+}
+.footerCompleto{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(to right, rgb(19, 19, 19), darkgray);
+    color: white;
+    height: 3%;
+    
+}
+.icogit{
+    cursor: pointer;
+}
